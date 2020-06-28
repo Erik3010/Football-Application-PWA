@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Application</title>
+    <link rel="stylesheet" href="/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body data-saved="false">
+    <!-- navbar -->
+    <nav class="light-blue darker-1">
+      <div class="nav-wrapper container">
+        <!-- nav logo -->
+        <a href="/index.html" class="brand-logo">Football App</a>
+        <!-- hamburger button to open sidenav -->
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <!-- nav list -->
+        <ul class="right hide-on-med-and-down"></ul>
+        <!-- sidenav -->
+        <ul class="sidenav" id="mobile-demo"></ul>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <div class="container" id="container"></div>
+    <!-- end content -->
+
+    <script src="/materialize/js/materialize.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/nav.js"></script>
+    <script src="/js/helper.js"></script>
+    <script src="/js/getData.js"></script>
+    <script src="/js/idb.js"></script>
+    <script src="/js/db.js"></script>
+  </body>
+</html>

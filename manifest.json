@@ -1,0 +1,22 @@
+{
+    "name": "Football Match App",
+    "short_name": "Football App",
+    "description": "This is a Football Match Application",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#039be5",
+    "theme_color": "#039be5",
+    "gcm_sender_id": "221306486068",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
